@@ -103,12 +103,32 @@ Verb;
 LEXICON Verb
 
 lieb Vlieben;
+mach Vlieben;
+kauf Vlieben;
+sag Vlieben;
 handel Vhandeln;
+sammel Vhandeln;
+ermittel Vhandeln;
+wurzel Vhandeln;
+spiegel Vhandeln;
 arbeit Varbeiten;
+wart Varbeiten;
+bedeut Varbeiten;
+antwort Varbeiten;
 
 LEXICON Adjective
 
 neu	Aneu;
+klein	Aneu;
+lang	Aneu;
+groß	Aneu;
+langweilig	Aneu;
+euphorisch	Aneu;
+toll	Aneu;
+wunderbar	Aneu;
+glücklich	Aneu;
+schön	Aneu;
+schnell Aneu;
 
 LEXICON Njunge
 
