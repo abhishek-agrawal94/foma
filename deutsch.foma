@@ -9,6 +9,12 @@ define ShortToLongKraft a -> ä || ?* _ ?* "^" [e | e n] ,, o -> ö || ?* _ ?* "
 # Convert short to long vowel for the inflection pattern mutter
 define ShortToLongMutter a -> ä || ?* _ ?* "^" [1 | n] ,, o -> ö || ?* _ ?* "^" [1 | n] ,, u -> ü || ?* _ ?* "^" [1 | n];
 
+# Convert short to long vowel for the inflection pattern fahren
+define ShortToLongFahren a -> ä || ?* _ ?* "^" 1 [t | s t];
+
+# Convert a to u for irregular verb fahren
+define AToUIrregVerbs a -> u || ?* _ ?* 1;
+
 # clean added 1 for rules
 define CleanOne 1 -> 0;
 
@@ -19,6 +25,8 @@ read lexc deutsch.lexc
 define Lexicon;
 
 define Grammar Lexicon .o.
+	       ShortToLongFahren .o.
+	       AToUIrregVerbs .o.
 	       ShortToLongKraft .o. 
 	       ShortToLongMutter .o.
 	       CleanOne .o.
