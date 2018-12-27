@@ -1,0 +1,286 @@
+
+Multichar_Symbols
+
++N
++V
++M
++F
++Nt
++Sg
++Pl
++1P
++2P
++3P
++Nom
++Acc
++Dat
++Gen
++Inf
++Part1
++Part2
++Ind
++Subj
++Cond
++Impe
++Pres
++Imperf
++Perf
++Pluperf
++Fut
++Futperf
+
+
+LEXICON Root
+
+Noun ;
+
+
+LEXICON Noun
+
+junge	Njunge;
+bursche	Njunge;
+knabe	Njunge;
+bube	Njunge;
+kunde	Njunge;
+neffe	Njunge;
+russe	Njunge;
+schwede	Njunge;
+soziologe	Njunge;
+löwe	Njunge;
+rabe	Njunge;
+schimpanse	Njunge;
+bauer	Njunge;
+wille	Nwille;
+name	Nwille;
+elefant	Nelefant;
+emigrant Nelefant;
+präsident	Nelefant;
+kapitalist	Nelefant;
+kommunist	Nelefant;
+diplomat	Nelefant;
+astronaut	Nelefant;
+kandidat	Nelefant;
+kamerad	Nelefant;
+bär	Nelefant;
+held	Nelefant;
+mensch	Nelefant;
+pilot	Nelefant;
+idiot	Nelefant;
+architekt	Nelefant;
+demokrat	Nelefant;
+käse	Nkäse;
+benutzer	Nkäse;
+nachbar	Nnachbar;
+lehrling	Nlehrling;
+boss	Nlehrling;
+konzern	Nlehrling;
+wohnung	Nwohnung;	
+fähigkeit Nwohnung;
+lehrerin	Nlehrerin;
+kamera	Nkamera;
+chance Nchance;
+radio	Nradio;
+herz	Nherz;
+kraft	Nkraft;
+mutter	Nmutter;
+staat	Nstaat;
+bild	Nbild;
+berg	Nberg;
+
+LEXICON Njunge
+
++N+M+Sg+Nom:0	#;
++N+M+Sg+Acc:^n	#;
++N+M+Sg+Dat:^n	#;
++N+M+Sg+Gen:^n	#;
++N+M+Pl+Nom:^n	#;
++N+M+Pl+Acc:^n	#;
++N+M+Pl+Dat:^n	#;
++N+M+Pl+Gen:^n	#;
+
+LEXICON Nwille
+
++N+M+Sg+Nom:0     #;
++N+M+Sg+Acc:^n    #;
++N+M+Sg+Dat:^n    #;
++N+M+Sg+Gen:^ns	#;
++N+M+Pl+Nom:^n    #;
++N+M+Pl+Acc:^n    #;
++N+M+Pl+Dat:^n    #;
++N+M+Pl+Gen:^n    #;
+
+LEXICON Nelefant
+
++N+M+Sg+Nom:0	#;
++N+M+Sg+Acc:^en	#;
++N+M+Sg+Dat:^en	#;
++N+M+Sg+Gen:^en	#;
++N+M+Pl+Nom:^en	#;
++N+M+Pl+Acc:^en	#;
++N+M+Pl+Dat:^en	#;
++N+M+Pl+Gen:^en	#;
+
+LEXICON Nkäse
+
++N+M+Sg+Nom:0     #;
++N+M+Sg+Acc:0	#;
++N+M+Sg+Dat:0	#;
++N+M+Sg+Gen:^s    #;
++N+M+Pl+Nom:0    	#;
++N+M+Pl+Acc:0	#;
++N+M+Pl+Dat:^n    #;
++N+M+Pl+Gen:0	#;
+
+LEXICON Nnachbar
+
++N+M+Sg+Nom:0     #;
++N+M+Sg+Acc:0	#;
++N+M+Sg+Dat:0	#;
++N+M+Sg+Gen:^s    #;
++N+M+Pl+Nom:^n    #;
++N+M+Pl+Acc:^n    #;
++N+M+Pl+Dat:^n    #;
++N+M+Pl+Gen:^n    #;
+
+LEXICON Nlehrling
+
++N+M+Sg+Nom:0     #;
++N+M+Sg+Acc:0	#;
++N+M+Sg+Dat:0	#;
++N+M+Sg+Gen:^s    #;
++N+M+Pl+Nom:^e    #;
++N+M+Pl+Acc:^e    #;
++N+M+Pl+Dat:^en	#;
++N+M+Pl+Gen:^e    #;
+
+LEXICON Nwohnung
+
++N+F+Sg+Nom:0     #;
++N+F+Sg+Acc:0     #;
++N+F+Sg+Dat:0     #;
++N+F+Sg+Gen:0	#;
++N+F+Pl+Nom:^en	#;
++N+F+Pl+Acc:^en	#;
++N+F+Pl+Dat:^en   #;
++N+F+Pl+Gen:^en	#;
+
+LEXICON Nlehrerin
+
++N+F+Sg+Nom:0     #;
++N+F+Sg+Acc:0     #;
++N+F+Sg+Dat:0     #;
++N+F+Sg+Gen:0     #;
++N+F+Pl+Nom:^nen	#;
++N+F+Pl+Acc:^nen	#;
++N+F+Pl+Dat:^nen  #;
++N+F+Pl+Gen:^nen	#;
+
+LEXICON Nkamera
+
++N+F+Sg+Nom:0     #;
++N+F+Sg+Acc:0     #;
++N+F+Sg+Dat:0     #;
++N+F+Sg+Gen:0     #;
++N+F+Pl+Nom:^s	#;
++N+F+Pl+Acc:^s	#;
++N+F+Pl+Dat:^s	#;
++N+F+Pl+Gen:^s	#;
+
+LEXICON Nchance
+
++N+F+Sg+Nom:0     #;
++N+F+Sg+Acc:0     #;
++N+F+Sg+Dat:0     #;
++N+F+Sg+Gen:0     #;
++N+F+Pl+Nom:^n    #;
++N+F+Pl+Acc:^n    #;
++N+F+Pl+Dat:^n    #;
++N+F+Pl+Gen:^n    #;
+
+
+LEXICON Nradio
+
++N+Nt+Sg+Nom:0	#;
++N+Nt+Sg+Acc:0	#;
++N+Nt+Sg+Dat:0	#;
++N+Nt+Sg+Gen:^s	#;
++N+Nt+Pl+Nom:^s	#;
++N+Nt+Pl+Acc:^s	#;
++N+Nt+Pl+Dat:^s	#;
++N+Nt+Pl+Gen:^s	#;
+
+
+LEXICON Nherz
+
++N+Nt+Sg+Nom:0    #;
++N+Nt+Sg+Acc:0    #;
++N+Nt+Sg+Dat:^en	#;
++N+Nt+Sg+Dat:^e	#;
++N+Nt+Sg+Gen:^es	#;
++N+Nt+Sg+Gen:^ens	#;
++N+Nt+Pl+Nom:^en	#;
++N+Nt+Pl+Acc:^en	#;
++N+Nt+Pl+Dat:^en	#;
++N+Nt+Pl+Gen:^en	#;
+
+LEXICON Nkraft
+
++N+F+Sg+Nom:0     #;
++N+F+Sg+Acc:0     #;
++N+F+Sg+Dat:0     #;
++N+F+Sg+Gen:0     #;
++N+F+Pl+Nom:^e    #;
++N+F+Pl+Acc:^e    #;
++N+F+Pl+Dat:^en	#;
++N+F+Pl+Gen:^e    #;
+
+LEXICON Nmutter
+
++N+F+Sg+Nom:0     #;
++N+F+Sg+Acc:0     #;
++N+F+Sg+Dat:0     #;
++N+F+Sg+Gen:0     #;
++N+F+Pl+Nom:^1    #;
++N+F+Pl+Acc:^1    #;
++N+F+Pl+Dat:^n #;
++N+F+Pl+Gen:^1    #;
+
+LEXICON Nstaat
+
++N+M+Sg+Nom:0     #;
++N+M+Sg+Acc:0   #;
++N+M+Sg+Dat:0   #;
++N+M+Sg+Dat:^e	#;
++N+M+Sg+Gen:^s    #;
++N+M+Sg+Gen:^es	#;
++N+M+Pl+Nom:^en    #;
++N+M+Pl+Acc:^en    #;
++N+M+Pl+Dat:^en    #;
++N+M+Pl+Gen:^en    #;
+
+LEXICON Nbild
+
++N+Nt+Sg+Nom:0  #;
++N+Nt+Sg+Acc:0  #;
++N+Nt+Sg+Dat:0  #;
++N+Nt+Sg+Dat:^e  #;
++N+Nt+Sg+Gen:^s #;
++N+Nt+Sg+Gen:^es #;
++N+Nt+Pl+Nom:^er #;
++N+Nt+Pl+Acc:^er #;
++N+Nt+Pl+Dat:^ern #;
++N+Nt+Pl+Gen:^er #;
+
+LEXICON Nberg
+
++N+M+Sg+Nom:0  #;
++N+M+Sg+Acc:0  #;
++N+M+Sg+Dat:0  #;
++N+M+Sg+Dat:^e  #;
++N+M+Sg+Gen:^s #;
++N+M+Sg+Gen:^es #;
++N+M+Pl+Nom:^e #;
++N+M+Pl+Acc:^e #;
++N+M+Pl+Dat:^en #;
++N+M+Pl+Gen:^e #;
+

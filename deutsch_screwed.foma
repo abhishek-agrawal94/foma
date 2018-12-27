@@ -1,0 +1,47 @@
+### deutsch.foma ###
+
+# Short vowels
+define SV [a | o | u];
+
+# Long vowels
+define LV [ä | ö | ü];
+
+read lexc deutsch.lexc
+define Lexicon;
+
+# Convert short to long vowel for the inflection patter kraft
+define ShortToLongKraft a -> ä || "^" [e | e n] ,, o -> ö || "^" [e | e n] ,, u -> ü || "^" [e | e n];
+
+# Convert short to long vowel for the inflection pattern mutter
+define ShortToLongMutter a -> ä || "^" [1 | n] ,, o -> ö || "^" [1 | n] ,, u -> ü || "^" [1 | n];
+
+# Convert short to long vowel for irregular verbs
+define ShortToLongIrregVerbs a -> ä || "&" ,, o -> ö || "&" ,, u -> ü || "&";
+
+# Convert a to u for irregular verb fahren
+define AToUIrregVerbs a -> u || "$" ;
+
+
+# clean added 1 for rules
+define CleanOne 1 -> 0;
+
+# clean added $ for rules
+define CleanDollar "$" -> 0;
+
+# clean added & for rules
+define CleanAmpersand "&" -> 0;
+
+# Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+define Grammar Lexicon .o. 
+		ShortToLongKraft .o.
+		ShortToLongMutter .o.
+		CleanOne .o.
+		AtoUIrregVerbs .o.
+		CleanDollar .o.
+		ShortToLongIrregVerbs .o.
+		CleanAmpersand .o.
+		Cleanup;
+
+regex Grammar; 

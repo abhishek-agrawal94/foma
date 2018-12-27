@@ -1,0 +1,16 @@
+### deutsch.foma ###
+
+read lexc deutsch.lexc
+define Lexicon;
+
+
+# Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+read lexc deutsch.lexc
+define Lexicon;
+
+define Grammar Lexicon .o. 
+	       Cleanup;
+
+regex Grammar; 

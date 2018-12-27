@@ -1,0 +1,652 @@
+
+Multichar_Symbols
+
++N
++V
++M
++F
++Nt
++Sg
++Pl
++1P
++2P
++3P
++Nom
++Acc
++Dat
++Gen
++Inf
++Part1
++Part2
++Ind
++Subj
++Cond
++Impe
++Pres
++Imperf
++Perf
++Pluperf
++Fut
++Futperf
+GE+
+@P.GE.ON@
+@D.GE@
+@C.GE@
+
+LEXICON Root
+
+Noun ;
+Prefix ;
+
+LEXICON Noun
+
+junge	Njunge;
+bursche	Njunge;
+knabe	Njunge;
+bube	Njunge;
+kunde	Njunge;
+neffe	Njunge;
+russe	Njunge;
+schwede	Njunge;
+soziologe	Njunge;
+löwe	Njunge;
+rabe	Njunge;
+schimpanse	Njunge;
+bauer	Njunge;
+wille	Nwille;
+name	Nwille;
+elefant	Nelefant;
+emigrant Nelefant;
+präsident	Nelefant;
+kapitalist	Nelefant;
+kommunist	Nelefant;
+diplomat	Nelefant;
+astronaut	Nelefant;
+kandidat	Nelefant;
+kamerad	Nelefant;
+bär	Nelefant;
+held	Nelefant;
+mensch	Nelefant;
+pilot	Nelefant;
+idiot	Nelefant;
+architekt	Nelefant;
+demokrat	Nelefant;
+käse	Nkäse;
+benutzer	Nkäse;
+nachbar	Nnachbar;
+lehrling	Nlehrling;
+boss	Nlehrling;
+konzern	Nlehrling;
+wohnung	Nwohnung;	
+fähigkeit Nwohnung;
+lehrerin	Nlehrerin;
+kamera	Nkamera;
+chance Nchance;
+radio	Nradio;
+herz	Nherz;
+kraft	Nkraft;
+mutter	Nmutter;
+staat	Nstaat;
+bild	Nbild;
+berg	Nberg;
+
+LEXICON Prefix
+@P.GE.ON@GE+:@P.GE.ON@ge Verb;
+Verb;
+
+LEXICON Verb
+
+lieb Vlieben;
+handel Vhandeln;
+arbeit Varbeiten;
+fahr Vfahren;
+
+LEXICON Njunge
+
++N+M+Sg+Nom:0	#;
++N+M+Sg+Acc:^n	#;
++N+M+Sg+Dat:^n	#;
++N+M+Sg+Gen:^n	#;
++N+M+Pl+Nom:^n	#;
++N+M+Pl+Acc:^n	#;
++N+M+Pl+Dat:^n	#;
++N+M+Pl+Gen:^n	#;
+
+LEXICON Nwille
+
++N+M+Sg+Nom:0     #;
++N+M+Sg+Acc:^n    #;
++N+M+Sg+Dat:^n    #;
++N+M+Sg+Gen:^ns	#;
++N+M+Pl+Nom:^n    #;
++N+M+Pl+Acc:^n    #;
++N+M+Pl+Dat:^n    #;
++N+M+Pl+Gen:^n    #;
+
+LEXICON Nelefant
+
++N+M+Sg+Nom:0	#;
++N+M+Sg+Acc:^en	#;
++N+M+Sg+Dat:^en	#;
++N+M+Sg+Gen:^en	#;
++N+M+Pl+Nom:^en	#;
++N+M+Pl+Acc:^en	#;
++N+M+Pl+Dat:^en	#;
++N+M+Pl+Gen:^en	#;
+
+LEXICON Nkäse
+
++N+M+Sg+Nom:0     #;
++N+M+Sg+Acc:0	#;
++N+M+Sg+Dat:0	#;
++N+M+Sg+Gen:^s    #;
++N+M+Pl+Nom:0    	#;
++N+M+Pl+Acc:0	#;
++N+M+Pl+Dat:^n    #;
++N+M+Pl+Gen:0	#;
+
+LEXICON Nnachbar
+
++N+M+Sg+Nom:0     #;
++N+M+Sg+Acc:0	#;
++N+M+Sg+Dat:0	#;
++N+M+Sg+Gen:^s    #;
++N+M+Pl+Nom:^n    #;
++N+M+Pl+Acc:^n    #;
++N+M+Pl+Dat:^n    #;
++N+M+Pl+Gen:^n    #;
+
+LEXICON Nlehrling
+
++N+M+Sg+Nom:0     #;
++N+M+Sg+Acc:0	#;
++N+M+Sg+Dat:0	#;
++N+M+Sg+Gen:^s    #;
++N+M+Pl+Nom:^e    #;
++N+M+Pl+Acc:^e    #;
++N+M+Pl+Dat:^en	#;
++N+M+Pl+Gen:^e    #;
+
+LEXICON Nwohnung
+
++N+F+Sg+Nom:0     #;
++N+F+Sg+Acc:0     #;
++N+F+Sg+Dat:0     #;
++N+F+Sg+Gen:0	#;
++N+F+Pl+Nom:^en	#;
++N+F+Pl+Acc:^en	#;
++N+F+Pl+Dat:^en   #;
++N+F+Pl+Gen:^en	#;
+
+LEXICON Nlehrerin
+
++N+F+Sg+Nom:0     #;
++N+F+Sg+Acc:0     #;
++N+F+Sg+Dat:0     #;
++N+F+Sg+Gen:0     #;
++N+F+Pl+Nom:^nen	#;
++N+F+Pl+Acc:^nen	#;
++N+F+Pl+Dat:^nen  #;
++N+F+Pl+Gen:^nen	#;
+
+LEXICON Nkamera
+
++N+F+Sg+Nom:0     #;
++N+F+Sg+Acc:0     #;
++N+F+Sg+Dat:0     #;
++N+F+Sg+Gen:0     #;
++N+F+Pl+Nom:^s	#;
++N+F+Pl+Acc:^s	#;
++N+F+Pl+Dat:^s	#;
++N+F+Pl+Gen:^s	#;
+
+LEXICON Nchance
+
++N+F+Sg+Nom:0     #;
++N+F+Sg+Acc:0     #;
++N+F+Sg+Dat:0     #;
++N+F+Sg+Gen:0     #;
++N+F+Pl+Nom:^n    #;
++N+F+Pl+Acc:^n    #;
++N+F+Pl+Dat:^n    #;
++N+F+Pl+Gen:^n    #;
+
+
+LEXICON Nradio
+
++N+Nt+Sg+Nom:0	#;
++N+Nt+Sg+Acc:0	#;
++N+Nt+Sg+Dat:0	#;
++N+Nt+Sg+Gen:^s	#;
++N+Nt+Pl+Nom:^s	#;
++N+Nt+Pl+Acc:^s	#;
++N+Nt+Pl+Dat:^s	#;
++N+Nt+Pl+Gen:^s	#;
+
+
+LEXICON Nherz
+
++N+Nt+Sg+Nom:0    #;
++N+Nt+Sg+Acc:0    #;
++N+Nt+Sg+Dat:^en	#;
++N+Nt+Sg+Dat:^e	#;
++N+Nt+Sg+Gen:^es	#;
++N+Nt+Sg+Gen:^ens	#;
++N+Nt+Pl+Nom:^en	#;
++N+Nt+Pl+Acc:^en	#;
++N+Nt+Pl+Dat:^en	#;
++N+Nt+Pl+Gen:^en	#;
+
+LEXICON Nkraft
+
++N+F+Sg+Nom:0     #;
++N+F+Sg+Acc:0     #;
++N+F+Sg+Dat:0     #;
++N+F+Sg+Gen:0     #;
++N+F+Pl+Nom:^e    #;
++N+F+Pl+Acc:^e    #;
++N+F+Pl+Dat:^en	#;
++N+F+Pl+Gen:^e    #;
+
+LEXICON Nmutter
+
++N+F+Sg+Nom:0     #;
++N+F+Sg+Acc:0     #;
++N+F+Sg+Dat:0     #;
++N+F+Sg+Gen:0     #;
++N+F+Pl+Nom:^1    #;
++N+F+Pl+Acc:^1    #;
++N+F+Pl+Dat:^n #;
++N+F+Pl+Gen:^1    #;
+
+LEXICON Nstaat
+
++N+M+Sg+Nom:0     #;
++N+M+Sg+Acc:0   #;
++N+M+Sg+Dat:0   #;
++N+M+Sg+Dat:^e	#;
++N+M+Sg+Gen:^s    #;
++N+M+Sg+Gen:^es	#;
++N+M+Pl+Nom:^en    #;
++N+M+Pl+Acc:^en    #;
++N+M+Pl+Dat:^en    #;
++N+M+Pl+Gen:^en    #;
+
+LEXICON Nbild
+
++N+Nt+Sg+Nom:0  #;
++N+Nt+Sg+Acc:0  #;
++N+Nt+Sg+Dat:0  #;
++N+Nt+Sg+Dat:^e  #;
++N+Nt+Sg+Gen:^s #;
++N+Nt+Sg+Gen:^es #;
++N+Nt+Pl+Nom:^er #;
++N+Nt+Pl+Acc:^er #;
++N+Nt+Pl+Dat:^ern #;
++N+Nt+Pl+Gen:^er #;
+
+LEXICON Nberg
+
++N+M+Sg+Nom:0  #;
++N+M+Sg+Acc:0  #;
++N+M+Sg+Dat:0  #;
++N+M+Sg+Dat:^e  #;
++N+M+Sg+Gen:^s #;
++N+M+Sg+Gen:^es #;
++N+M+Pl+Nom:^e #;
++N+M+Pl+Acc:^e #;
++N+M+Pl+Dat:^en #;
++N+M+Pl+Gen:^e #;
+
+LEXICON Vlieben
+
+@D.GE@+V+Ind+Pres+Sg+1P:@D.GE@^e	#;
+@D.GE@+V+Ind+Pres+Sg+2P:@D.GE@^st	#;
+@D.GE@+V+Ind+Pres+Sg+3P:@D.GE@^t	#;
+@D.GE@+V+Ind+Pres+Pl+1P:@D.GE@^en	#;
+@D.GE@+V+Ind+Pres+Pl+2P:@D.GE@^t	#;
+@D.GE@+V+Ind+Pres+Pl+3P:@D.GE@^en	#;
+@D.GE@+V+Ind+Imperf+Sg+1P:@D.GE@^te    #;
+@D.GE@+V+Ind+Imperf+Sg+2P:@D.GE@^test   #;
+@D.GE@+V+Ind+Imperf+Sg+3P:@D.GE@^te    #;
+@D.GE@+V+Ind+Imperf+Pl+1P:@D.GE@^ten   #;
+@D.GE@+V+Ind+Imperf+Pl+2P:@D.GE@^tet    #;
+@D.GE@+V+Ind+Imperf+Pl+3P:@D.GE@^ten   #;
+@D.GE@+V+Ind+Fut+Sg+1P:@D.GE@^en    #;
+@D.GE@+V+Ind+Fut+Sg+2P:@D.GE@^en   #;
+@D.GE@+V+Ind+Fut+Sg+3P:@D.GE@^en    #;
+@D.GE@+V+Ind+Fut+Pl+1P:@D.GE@^en   #;
+@D.GE@+V+Ind+Fut+Pl+2P:@D.GE@^en    #;
+@D.GE@+V+Ind+Fut+Pl+3P:@D.GE@^en   #;
++V+Ind+Perf+Sg+1P:^t        #;
++V+Ind+Perf+Sg+2P:^t       #;
++V+Ind+Perf+Sg+3P:^t        #;
++V+Ind+Perf+Pl+1P:^t       #;
++V+Ind+Perf+Pl+2P:^t        #;
++V+Ind+Perf+Pl+3P:^t       #;
++V+Ind+Pluperf+Sg+1P:^t        #;
++V+Ind+Pluperf+Sg+2P:^t       #;
++V+Ind+Pluperf+Sg+3P:^t        #;
++V+Ind+Pluperf+Pl+1P:^t       #;
++V+Ind+Pluperf+Pl+2P:^t        #;
++V+Ind+Pluperf+Pl+3P:^t       #;
++V+Ind+Futperf+Sg+1P:^t        #;
++V+Ind+Futperf+Sg+2P:^t       #;
++V+Ind+Futperf+Sg+3P:^t        #;
++V+Ind+Futperf+Pl+1P:^t       #;
++V+Ind+Futperf+Pl+2P:^t        #;
++V+Ind+Futperf+Pl+3P:^t       #;
+@D.GE@+V+Subj+Pres+Sg+1P:@D.GE@^e        #;
+@D.GE@+V+Subj+Pres+Sg+2P:@D.GE@^est       #;
+@D.GE@+V+Subj+Pres+Sg+3P:@D.GE@^e        #;
+@D.GE@+V+Subj+Pres+Pl+1P:@D.GE@^en       #;
+@D.GE@+V+Subj+Pres+Pl+2P:@D.GE@^et        #;
+@D.GE@+V+Subj+Pres+Pl+3P:@D.GE@^en       #;
+@D.GE@+V+Subj+Imperf+Sg+1P:@D.GE@^te    #;
+@D.GE@+V+Subj+Imperf+Sg+2P:@D.GE@^test   #;
+@D.GE@+V+Subj+Imperf+Sg+3P:@D.GE@^te    #;
+@D.GE@+V+Subj+Imperf+Pl+1P:@D.GE@^ten   #;
+@D.GE@+V+Subj+Imperf+Pl+2P:@D.GE@^tet    #;
+@D.GE@+V+Subj+Imperf+Pl+3P:@D.GE@^ten   #;
+@D.GE@+V+Subj+Fut+Sg+1P:@D.GE@^en    #;
+@D.GE@+V+Subj+Fut+Sg+2P:@D.GE@^en   #;
+@D.GE@+V+Subj+Fut+Sg+3P:@D.GE@^en    #;
+@D.GE@+V+Subj+Fut+Pl+1P:@D.GE@^en   #;
+@D.GE@+V+Subj+Fut+Pl+2P:@D.GE@^en    #;
+@D.GE@+V+Subj+Fut+Pl+3P:@D.GE@^en   #;
++V+Subj+Perf+Sg+1P:^t        #;
++V+Subj+Perf+Sg+2P:^t       #;
++V+Subj+Perf+Sg+3P:^t        #;
++V+Subj+Perf+Pl+1P:^t       #;
++V+Subj+Perf+Pl+2P:^t        #;
++V+Subj+Perf+Pl+3P:^t       #;
++V+Subj+Pluperf+Sg+1P:^t        #;
++V+Subj+Pluperf+Sg+2P:^t       #;
++V+Subj+Pluperf+Sg+3P:^t        #;
++V+Subj+Pluperf+Pl+1P:^t       #;
++V+Subj+Pluperf+Pl+2P:^t        #;
++V+Subj+Pluperf+Pl+3P:^t       #;
++V+Subj+Futperf+Sg+1P:^t        #;
++V+Subj+Futperf+Sg+2P:^t       #;
++V+Subj+Futperf+Sg+3P:^t        #;
++V+Subj+Futperf+Pl+1P:^t       #;
++V+Subj+Futperf+Pl+2P:^t        #;
++V+Subj+Futperf+Pl+3P:^t       #;
+@D.GE@+V+Cond+Pres+Sg+1P:@D.GE@^en    #;
+@D.GE@+V+Cond+Pres+Sg+2P:@D.GE@^en   #;
+@D.GE@+V+Cond+Pres+Sg+3P:@D.GE@^en    #;
+@D.GE@+V+Cond+Pres+Pl+1P:@D.GE@^en   #;
+@D.GE@+V+Cond+Pres+Pl+2P:@D.GE@^en    #;
+@D.GE@+V+Cond+Pres+Pl+3P:@D.GE@^en   #;
+@D.GE@+V+Impe+Pres+Sg+2P:@D.GE@^e   #;
+@D.GE@+V+Impe+Pres+Sg+3P:@D.GE@^e   #;
+@D.GE@+V+Impe+Pres+Pl+1P:@D.GE@^en   #;
+@D.GE@+V+Impe+Pres+Pl+2P:@D.GE@^t    #;
+@D.GE@+V+Impe+Pres+Pl+3P:@D.GE@^en   #;
+@D.GE@+V+Inf:@D.GE@^en	#;
+@D.GE@+V+Part1:@D.GE@^end  #;
++V+Part2:^t	#;
+
+LEXICON Vhandeln
+
+@D.GE@+V+Ind+Pres+Sg+1P:@D.GE@^e	#;
+@D.GE@+V+Ind+Pres+Sg+2P:@D.GE@^st	#;
+@D.GE@+V+Ind+Pres+Sg+3P:@D.GE@^t	#;
+@D.GE@+V+Ind+Pres+Pl+1P:@D.GE@^n	#;
+@D.GE@+V+Ind+Pres+Pl+2P:@D.GE@^t	#;
+@D.GE@+V+Ind+Pres+Pl+3P:@D.GE@^n	#;
+@D.GE@+V+Ind+Imperf+Sg+1P:@D.GE@^te    #;
+@D.GE@+V+Ind+Imperf+Sg+2P:@D.GE@^test   #;
+@D.GE@+V+Ind+Imperf+Sg+3P:@D.GE@^te    #;
+@D.GE@+V+Ind+Imperf+Pl+1P:@D.GE@^ten   #;
+@D.GE@+V+Ind+Imperf+Pl+2P:@D.GE@^tet    #;
+@D.GE@+V+Ind+Imperf+Pl+3P:@D.GE@^ten   #;
+@D.GE@+V+Ind+Fut+Sg+1P:@D.GE@^n    #;
+@D.GE@+V+Ind+Fut+Sg+2P:@D.GE@^n   #;
+@D.GE@+V+Ind+Fut+Sg+3P:@D.GE@^n    #;
+@D.GE@+V+Ind+Fut+Pl+1P:@D.GE@^n   #;
+@D.GE@+V+Ind+Fut+Pl+2P:@D.GE@^n    #;
+@D.GE@+V+Ind+Fut+Pl+3P:@D.GE@^n   #;
++V+Ind+Perf+Sg+1P:^t        #;
++V+Ind+Perf+Sg+2P:^t       #;
++V+Ind+Perf+Sg+3P:^t        #;
++V+Ind+Perf+Pl+1P:^t       #;
++V+Ind+Perf+Pl+2P:^t        #;
++V+Ind+Perf+Pl+3P:^t       #;
++V+Ind+Pluperf+Sg+1P:^t        #;
++V+Ind+Pluperf+Sg+2P:^t       #;
++V+Ind+Pluperf+Sg+3P:^t        #;
++V+Ind+Pluperf+Pl+1P:^t       #;
++V+Ind+Pluperf+Pl+2P:^t        #;
++V+Ind+Pluperf+Pl+3P:^t       #;
++V+Ind+Futperf+Sg+1P:^t        #;
++V+Ind+Futperf+Sg+2P:^t       #;
++V+Ind+Futperf+Sg+3P:^t        #;
++V+Ind+Futperf+Pl+1P:^t       #;
++V+Ind+Futperf+Pl+2P:^t        #;
++V+Ind+Futperf+Pl+3P:^t       #;
+@D.GE@+V+Subj+Pres+Sg+1P:@D.GE@^e        #;
+@D.GE@+V+Subj+Pres+Sg+2P:@D.GE@^st       #;
+@D.GE@+V+Subj+Pres+Sg+3P:@D.GE@^e        #;
+@D.GE@+V+Subj+Pres+Pl+1P:@D.GE@^n       #;
+@D.GE@+V+Subj+Pres+Pl+2P:@D.GE@^t        #;
+@D.GE@+V+Subj+Pres+Pl+3P:@D.GE@^n       #;
+@D.GE@+V+Subj+Imperf+Sg+1P:@D.GE@^te    #;
+@D.GE@+V+Subj+Imperf+Sg+2P:@D.GE@^test   #;
+@D.GE@+V+Subj+Imperf+Sg+3P:@D.GE@^te    #;
+@D.GE@+V+Subj+Imperf+Pl+1P:@D.GE@^ten   #;
+@D.GE@+V+Subj+Imperf+Pl+2P:@D.GE@^tet    #;
+@D.GE@+V+Subj+Imperf+Pl+3P:@D.GE@^ten   #;
+@D.GE@+V+Subj+Fut+Sg+1P:@D.GE@^n    #;
+@D.GE@+V+Subj+Fut+Sg+2P:@D.GE@^n   #;
+@D.GE@+V+Subj+Fut+Sg+3P:@D.GE@^n    #;
+@D.GE@+V+Subj+Fut+Pl+1P:@D.GE@^n   #;
+@D.GE@+V+Subj+Fut+Pl+2P:@D.GE@^n    #;
+@D.GE@+V+Subj+Fut+Pl+3P:@D.GE@^n   #;
++V+Subj+Perf+Sg+1P:^t        #;
++V+Subj+Perf+Sg+2P:^t       #;
++V+Subj+Perf+Sg+3P:^t        #;
++V+Subj+Perf+Pl+1P:^t       #;
++V+Subj+Perf+Pl+2P:^t        #;
++V+Subj+Perf+Pl+3P:^t       #;
++V+Subj+Pluperf+Sg+1P:^t        #;
++V+Subj+Pluperf+Sg+2P:^t       #;
++V+Subj+Pluperf+Sg+3P:^t        #;
++V+Subj+Pluperf+Pl+1P:^t       #;
++V+Subj+Pluperf+Pl+2P:^t        #;
++V+Subj+Pluperf+Pl+3P:^t       #;
++V+Subj+Futperf+Sg+1P:^t        #;
++V+Subj+Futperf+Sg+2P:^t       #;
++V+Subj+Futperf+Sg+3P:^t        #;
++V+Subj+Futperf+Pl+1P:^t       #;
++V+Subj+Futperf+Pl+2P:^t        #;
++V+Subj+Futperf+Pl+3P:^t       #;
+@D.GE@+V+Cond+Pres+Sg+1P:@D.GE@^n    #;
+@D.GE@+V+Cond+Pres+Sg+2P:@D.GE@^n   #;
+@D.GE@+V+Cond+Pres+Sg+3P:@D.GE@^n    #;
+@D.GE@+V+Cond+Pres+Pl+1P:@D.GE@^n   #;
+@D.GE@+V+Cond+Pres+Pl+2P:@D.GE@^n    #;
+@D.GE@+V+Cond+Pres+Pl+3P:@D.GE@^n   #;
+@D.GE@+V+Impe+Pres+Sg+2P:@D.GE@^e   #;
+@D.GE@+V+Impe+Pres+Pl+1P:@D.GE@^n   #;
+@D.GE@+V+Impe+Pres+Pl+2P:@D.GE@^t    #;
+@D.GE@+V+Impe+Pres+Pl+3P:@D.GE@^n   #;
+@D.GE@+V+Inf:@D.GE@^n	#;
+@D.GE@+V+Part1:@D.GE@^nd  #;
++V+Part2:^t	#;
+
+LEXICON Varbeiten
+
+@D.GE@+V+Ind+Pres+Sg+1P:@D.GE@^e	#;
+@D.GE@+V+Ind+Pres+Sg+2P:@D.GE@^est	#;
+@D.GE@+V+Ind+Pres+Sg+3P:@D.GE@^et	#;
+@D.GE@+V+Ind+Pres+Pl+1P:@D.GE@^en	#;
+@D.GE@+V+Ind+Pres+Pl+2P:@D.GE@^et	#;
+@D.GE@+V+Ind+Pres+Pl+3P:@D.GE@^en	#;
+@D.GE@+V+Ind+Imperf+Sg+1P:@D.GE@^ete    #;
+@D.GE@+V+Ind+Imperf+Sg+2P:@D.GE@^etest   #;
+@D.GE@+V+Ind+Imperf+Sg+3P:@D.GE@^ete    #;
+@D.GE@+V+Ind+Imperf+Pl+1P:@D.GE@^eten   #;
+@D.GE@+V+Ind+Imperf+Pl+2P:@D.GE@^etet    #;
+@D.GE@+V+Ind+Imperf+Pl+3P:@D.GE@^eten   #;
+@D.GE@+V+Ind+Fut+Sg+1P:@D.GE@^en    #;
+@D.GE@+V+Ind+Fut+Sg+2P:@D.GE@^en   #;
+@D.GE@+V+Ind+Fut+Sg+3P:@D.GE@^en    #;
+@D.GE@+V+Ind+Fut+Pl+1P:@D.GE@^en   #;
+@D.GE@+V+Ind+Fut+Pl+2P:@D.GE@^en    #;
+@D.GE@+V+Ind+Fut+Pl+3P:@D.GE@^en   #;
++V+Ind+Perf+Sg+1P:^et        #;
++V+Ind+Perf+Sg+2P:^et       #;
++V+Ind+Perf+Sg+3P:^et        #;
++V+Ind+Perf+Pl+1P:^et       #;
++V+Ind+Perf+Pl+2P:^et        #;
++V+Ind+Perf+Pl+3P:^et       #;
++V+Ind+Pluperf+Sg+1P:^et        #;
++V+Ind+Pluperf+Sg+2P:^et       #;
++V+Ind+Pluperf+Sg+3P:^et        #;
++V+Ind+Pluperf+Pl+1P:^et       #;
++V+Ind+Pluperf+Pl+2P:^et        #;
++V+Ind+Pluperf+Pl+3P:^et       #;
++V+Ind+Futperf+Sg+1P:^et        #;
++V+Ind+Futperf+Sg+2P:^et       #;
++V+Ind+Futperf+Sg+3P:^et        #;
++V+Ind+Futperf+Pl+1P:^et       #;
++V+Ind+Futperf+Pl+2P:^et        #;
++V+Ind+Futperf+Pl+3P:^et       #;
+@D.GE@+V+Subj+Pres+Sg+1P:@D.GE@^e        #;
+@D.GE@+V+Subj+Pres+Sg+2P:@D.GE@^est       #;
+@D.GE@+V+Subj+Pres+Sg+3P:@D.GE@^e        #;
+@D.GE@+V+Subj+Pres+Pl+1P:@D.GE@^en       #;
+@D.GE@+V+Subj+Pres+Pl+2P:@D.GE@^et        #;
+@D.GE@+V+Subj+Pres+Pl+3P:@D.GE@^en       #;
+@D.GE@+V+Subj+Imperf+Sg+1P:@D.GE@^ete    #;
+@D.GE@+V+Subj+Imperf+Sg+2P:@D.GE@^etest   #;
+@D.GE@+V+Subj+Imperf+Sg+3P:@D.GE@^ete    #;
+@D.GE@+V+Subj+Imperf+Pl+1P:@D.GE@^eten   #;
+@D.GE@+V+Subj+Imperf+Pl+2P:@D.GE@^etet    #;
+@D.GE@+V+Subj+Imperf+Pl+3P:@D.GE@^eten   #;
+@D.GE@+V+Subj+Fut+Sg+1P:@D.GE@^en    #;
+@D.GE@+V+Subj+Fut+Sg+2P:@D.GE@^en   #;
+@D.GE@+V+Subj+Fut+Sg+3P:@D.GE@^en    #;
+@D.GE@+V+Subj+Fut+Pl+1P:@D.GE@^en   #;
+@D.GE@+V+Subj+Fut+Pl+2P:@D.GE@^en    #;
+@D.GE@+V+Subj+Fut+Pl+3P:@D.GE@^en   #;
++V+Subj+Perf+Sg+1P:^et        #;
++V+Subj+Perf+Sg+2P:^et       #;
++V+Subj+Perf+Sg+3P:^et        #;
++V+Subj+Perf+Pl+1P:^et       #;
++V+Subj+Perf+Pl+2P:^et        #;
++V+Subj+Perf+Pl+3P:^et       #;
++V+Subj+Pluperf+Sg+1P:^et        #;
++V+Subj+Pluperf+Sg+2P:^et       #;
++V+Subj+Pluperf+Sg+3P:^et        #;
++V+Subj+Pluperf+Pl+1P:^et       #;
++V+Subj+Pluperf+Pl+2P:^et        #;
++V+Subj+Pluperf+Pl+3P:^et       #;
++V+Subj+Futperf+Sg+1P:^et        #;
++V+Subj+Futperf+Sg+2P:^et       #;
++V+Subj+Futperf+Sg+3P:^et        #;
++V+Subj+Futperf+Pl+1P:^et       #;
++V+Subj+Futperf+Pl+2P:^et        #;
++V+Subj+Futperf+Pl+3P:^et       #;
+@D.GE@+V+Cond+Pres+Sg+1P:@D.GE@^en    #;
+@D.GE@+V+Cond+Pres+Sg+2P:@D.GE@^en   #;
+@D.GE@+V+Cond+Pres+Sg+3P:@D.GE@^en    #;
+@D.GE@+V+Cond+Pres+Pl+1P:@D.GE@^en   #;
+@D.GE@+V+Cond+Pres+Pl+2P:@D.GE@^en    #;
+@D.GE@+V+Cond+Pres+Pl+3P:@D.GE@^en   #;
+@D.GE@+V+Impe+Pres+Sg+2P:@D.GE@^e   #;
+@D.GE@+V+Impe+Pres+Pl+1P:@D.GE@^en   #;
+@D.GE@+V+Impe+Pres+Pl+2P:@D.GE@^et    #;
+@D.GE@+V+Impe+Pres+Pl+3P:@D.GE@^en   #;
+@D.GE@+V+Inf:@D.GE@^en	#;
+@D.GE@+V+Part1:@D.GE@^end  #;
++V+Part2:^et	#;
+
+LEXICON Vfahren
+
+@D.GE@+V+Ind+Pres+Sg+1P:@D.GE@^e	#;
+@D.GE@+V+Ind+Pres+Sg+2P:@D.GE@&st	#;
+@D.GE@+V+Ind+Pres+Sg+3P:@D.GE@&t	#;
+@D.GE@+V+Ind+Pres+Pl+1P:@D.GE@^en	#;
+@D.GE@+V+Ind+Pres+Pl+2P:@D.GE@^t	#;
+@D.GE@+V+Ind+Pres+Pl+3P:@D.GE@^en	#;
+@D.GE@+V+Ind+Imperf+Sg+1P:@D.GE@$    #;
+@D.GE@+V+Ind+Imperf+Sg+2P:@D.GE@$st   #;
+@D.GE@+V+Ind+Imperf+Sg+3P:@D.GE@$    #;
+@D.GE@+V+Ind+Imperf+Pl+1P:@D.GE@$en   #;
+@D.GE@+V+Ind+Imperf+Pl+2P:@D.GE@$t    #;
+@D.GE@+V+Ind+Imperf+Pl+3P:@D.GE@$en   #;
+@D.GE@+V+Ind+Fut+Sg+1P:@D.GE@^en    #;
+@D.GE@+V+Ind+Fut+Sg+2P:@D.GE@^en   #;
+@D.GE@+V+Ind+Fut+Sg+3P:@D.GE@^en    #;
+@D.GE@+V+Ind+Fut+Pl+1P:@D.GE@^en   #;
+@D.GE@+V+Ind+Fut+Pl+2P:@D.GE@^en    #;
+@D.GE@+V+Ind+Fut+Pl+3P:@D.GE@^en   #;
++V+Ind+Perf+Sg+1P:^en        #;
++V+Ind+Perf+Sg+2P:^en       #;
++V+Ind+Perf+Sg+3P:^en        #;
++V+Ind+Perf+Pl+1P:^en       #;
++V+Ind+Perf+Pl+2P:^en        #;
++V+Ind+Perf+Pl+3P:^en       #;
++V+Ind+Pluperf+Sg+1P:^en        #;
++V+Ind+Pluperf+Sg+2P:^en       #;
++V+Ind+Pluperf+Sg+3P:^en        #;
++V+Ind+Pluperf+Pl+1P:^en       #;
++V+Ind+Pluperf+Pl+2P:^en        #;
++V+Ind+Pluperf+Pl+3P:^en       #;
++V+Ind+Futperf+Sg+1P:^en        #;
++V+Ind+Futperf+Sg+2P:^en       #;
++V+Ind+Futperf+Sg+3P:^en        #;
++V+Ind+Futperf+Pl+1P:^en       #;
++V+Ind+Futperf+Pl+2P:^en        #;
++V+Ind+Futperf+Pl+3P:^en       #;
+@D.GE@+V+Subj+Pres+Sg+1P:@D.GE@^e        #;
+@D.GE@+V+Subj+Pres+Sg+2P:@D.GE@^est       #;
+@D.GE@+V+Subj+Pres+Sg+3P:@D.GE@^e        #;
+@D.GE@+V+Subj+Pres+Pl+1P:@D.GE@^en       #;
+@D.GE@+V+Subj+Pres+Pl+2P:@D.GE@^et        #;
+@D.GE@+V+Subj+Pres+Pl+3P:@D.GE@^en       #;
+@D.GE@+V+Subj+Imperf+Sg+1P:@D.GE@$&e    #;
+@D.GE@+V+Subj+Imperf+Sg+2P:@D.GE@$&est   #;
+@D.GE@+V+Subj+Imperf+Sg+3P:@D.GE@$&e    #;
+@D.GE@+V+Subj+Imperf+Pl+1P:@D.GE@$&en   #;
+@D.GE@+V+Subj+Imperf+Pl+2P:@D.GE@$&et    #;
+@D.GE@+V+Subj+Imperf+Pl+3P:@D.GE@$&en   #;
+@D.GE@+V+Subj+Fut+Sg+1P:@D.GE@^en    #;
+@D.GE@+V+Subj+Fut+Sg+2P:@D.GE@^en   #;
+@D.GE@+V+Subj+Fut+Sg+3P:@D.GE@^en    #;
+@D.GE@+V+Subj+Fut+Pl+1P:@D.GE@^en   #;
+@D.GE@+V+Subj+Fut+Pl+2P:@D.GE@^en    #;
+@D.GE@+V+Subj+Fut+Pl+3P:@D.GE@^en   #;
++V+Subj+Perf+Sg+1P:^en        #;
++V+Subj+Perf+Sg+2P:^en       #;
++V+Subj+Perf+Sg+3P:^en        #;
++V+Subj+Perf+Pl+1P:^en       #;
++V+Subj+Perf+Pl+2P:^en        #;
++V+Subj+Perf+Pl+3P:^en       #;
++V+Subj+Pluperf+Sg+1P:^en        #;
++V+Subj+Pluperf+Sg+2P:^en       #;
++V+Subj+Pluperf+Sg+3P:^en        #;
++V+Subj+Pluperf+Pl+1P:^en       #;
++V+Subj+Pluperf+Pl+2P:^en        #;
++V+Subj+Pluperf+Pl+3P:^en       #;
++V+Subj+Futperf+Sg+1P:^en        #;
++V+Subj+Futperf+Sg+2P:^en       #;
++V+Subj+Futperf+Sg+3P:^en        #;
++V+Subj+Futperf+Pl+1P:^en       #;
++V+Subj+Futperf+Pl+2P:^en        #;
++V+Subj+Futperf+Pl+3P:^en       #;
+@D.GE@+V+Cond+Pres+Sg+1P:@D.GE@^en    #;
+@D.GE@+V+Cond+Pres+Sg+2P:@D.GE@^en   #;
+@D.GE@+V+Cond+Pres+Sg+3P:@D.GE@^en    #;
+@D.GE@+V+Cond+Pres+Pl+1P:@D.GE@^en   #;
+@D.GE@+V+Cond+Pres+Pl+2P:@D.GE@^en    #;
+@D.GE@+V+Cond+Pres+Pl+3P:@D.GE@^en   #;
+@D.GE@+V+Impe+Pres+Sg+2P:@D.GE@^e   #;
+@D.GE@+V+Impe+Pres+Pl+1P:@D.GE@^en   #;
+@D.GE@+V+Impe+Pres+Pl+2P:@D.GE@^t    #;
+@D.GE@+V+Impe+Pres+Pl+3P:@D.GE@^en   #;
+@D.GE@+V+Inf:@D.GE@^en	#;
+@D.GE@+V+Part1:@D.GE@^end  #;
++V+Part2:^en	#;
