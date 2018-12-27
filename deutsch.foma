@@ -3,6 +3,14 @@
 read lexc deutsch.lexc
 define Lexicon;
 
+# Convert short to long vowel for the inflection patter kraft
+define ShortToLongKraft a -> ä || ?* _ ?* "^" [e | e n] ,, o -> ö || ?* _ ?* "^" [e | e n] ,, u -> ü || ?* _ ?* "^" [e | e n];
+
+# Convert short to long vowel for the inflection pattern mutter
+define ShortToLongMutter a -> ä || ?* _ ?* "^" [1 | n] ,, o -> ö || ?* _ ?* "^" [1 | n] ,, u -> ü || ?* _ ?* "^" [1 | n];
+
+# clean added 1 for rules
+define CleanOne 1 -> 0;
 
 # Cleanup: remove morpheme boundaries
 define Cleanup "^" -> 0;
@@ -10,7 +18,10 @@ define Cleanup "^" -> 0;
 read lexc deutsch.lexc
 define Lexicon;
 
-define Grammar Lexicon .o. 
+define Grammar Lexicon .o.
+	       ShortToLongKraft .o. 
+	       ShortToLongMutter .o.
+	       CleanOne .o.
 	       Cleanup;
 
 regex Grammar; 

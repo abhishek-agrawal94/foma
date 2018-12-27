@@ -28,7 +28,10 @@ Multichar_Symbols
 +Pluperf
 +Fut
 +Futperf
-
+GE+
+@P.GE.ON@
+@D.GE@
+@C.GE@
 
 LEXICON Root
 
@@ -90,45 +93,45 @@ berg	Nberg;
 LEXICON Njunge
 
 +N+M+Sg+Nom:0	#;
-+N+M+Sg+Acc:^n	#;
-+N+M+Sg+Dat:^n	#;
-+N+M+Sg+Gen:^n	#;
-+N+M+Pl+Nom:^n	#;
-+N+M+Pl+Acc:^n	#;
-+N+M+Pl+Dat:^n	#;
-+N+M+Pl+Gen:^n	#;
++N+M+Sg+Acc:n	#;
++N+M+Sg+Dat:n	#;
++N+M+Sg+Gen:n	#;
++N+M+Pl+Nom:n	#;
++N+M+Pl+Acc:n	#;
++N+M+Pl+Dat:n	#;
++N+M+Pl+Gen:n	#;
 
 LEXICON Nwille
 
 +N+M+Sg+Nom:0     #;
-+N+M+Sg+Acc:^n    #;
-+N+M+Sg+Dat:^n    #;
-+N+M+Sg+Gen:^ns	#;
-+N+M+Pl+Nom:^n    #;
-+N+M+Pl+Acc:^n    #;
-+N+M+Pl+Dat:^n    #;
-+N+M+Pl+Gen:^n    #;
++N+M+Sg+Acc:n    #;
++N+M+Sg+Dat:n    #;
++N+M+Sg+Gen:ns	#;
++N+M+Pl+Nom:n    #;
++N+M+Pl+Acc:n    #;
++N+M+Pl+Dat:n    #;
++N+M+Pl+Gen:n    #;
 
 LEXICON Nelefant
 
 +N+M+Sg+Nom:0	#;
-+N+M+Sg+Acc:^en	#;
-+N+M+Sg+Dat:^en	#;
-+N+M+Sg+Gen:^en	#;
-+N+M+Pl+Nom:^en	#;
-+N+M+Pl+Acc:^en	#;
-+N+M+Pl+Dat:^en	#;
-+N+M+Pl+Gen:^en	#;
++N+M+Sg+Acc:en	#;
++N+M+Sg+Dat:en	#;
++N+M+Sg+Gen:en	#;
++N+M+Pl+Nom:en	#;
++N+M+Pl+Acc:en	#;
++N+M+Pl+Dat:en	#;
++N+M+Pl+Gen:en	#;
 
 LEXICON Nkäse
 
 +N+M+Sg+Nom:0     #;
 +N+M+Sg+Acc:0	#;
 +N+M+Sg+Dat:0	#;
-+N+M+Sg+Gen:^s    #;
++N+M+Sg+Gen:s    #;
 +N+M+Pl+Nom:0    	#;
 +N+M+Pl+Acc:0	#;
-+N+M+Pl+Dat:^n    #;
++N+M+Pl+Dat:n    #;
 +N+M+Pl+Gen:0	#;
 
 LEXICON Nnachbar
@@ -136,22 +139,22 @@ LEXICON Nnachbar
 +N+M+Sg+Nom:0     #;
 +N+M+Sg+Acc:0	#;
 +N+M+Sg+Dat:0	#;
-+N+M+Sg+Gen:^s    #;
-+N+M+Pl+Nom:^n    #;
-+N+M+Pl+Acc:^n    #;
-+N+M+Pl+Dat:^n    #;
-+N+M+Pl+Gen:^n    #;
++N+M+Sg+Gen:s    #;
++N+M+Pl+Nom:n    #;
++N+M+Pl+Acc:n    #;
++N+M+Pl+Dat:n    #;
++N+M+Pl+Gen:n    #;
 
 LEXICON Nlehrling
 
 +N+M+Sg+Nom:0     #;
 +N+M+Sg+Acc:0	#;
 +N+M+Sg+Dat:0	#;
-+N+M+Sg+Gen:^s    #;
-+N+M+Pl+Nom:^e    #;
-+N+M+Pl+Acc:^e    #;
-+N+M+Pl+Dat:^en	#;
-+N+M+Pl+Gen:^e    #;
++N+M+Sg+Gen:s    #;
++N+M+Pl+Nom:e    #;
++N+M+Pl+Acc:e    #;
++N+M+Pl+Dat:en	#;
++N+M+Pl+Gen:e    #;
 
 LEXICON Nwohnung
 
@@ -159,10 +162,10 @@ LEXICON Nwohnung
 +N+F+Sg+Acc:0     #;
 +N+F+Sg+Dat:0     #;
 +N+F+Sg+Gen:0	#;
-+N+F+Pl+Nom:^en	#;
-+N+F+Pl+Acc:^en	#;
-+N+F+Pl+Dat:^en   #;
-+N+F+Pl+Gen:^en	#;
++N+F+Pl+Nom:en	#;
++N+F+Pl+Acc:en	#;
++N+F+Pl+Dat:en   #;
++N+F+Pl+Gen:en	#;
 
 LEXICON Nlehrerin
 
@@ -170,10 +173,10 @@ LEXICON Nlehrerin
 +N+F+Sg+Acc:0     #;
 +N+F+Sg+Dat:0     #;
 +N+F+Sg+Gen:0     #;
-+N+F+Pl+Nom:^nen	#;
-+N+F+Pl+Acc:^nen	#;
-+N+F+Pl+Dat:^nen  #;
-+N+F+Pl+Gen:^nen	#;
++N+F+Pl+Nom:nen	#;
++N+F+Pl+Acc:nen	#;
++N+F+Pl+Dat:nen  #;
++N+F+Pl+Gen:nen	#;
 
 LEXICON Nkamera
 
@@ -181,10 +184,10 @@ LEXICON Nkamera
 +N+F+Sg+Acc:0     #;
 +N+F+Sg+Dat:0     #;
 +N+F+Sg+Gen:0     #;
-+N+F+Pl+Nom:^s	#;
-+N+F+Pl+Acc:^s	#;
-+N+F+Pl+Dat:^s	#;
-+N+F+Pl+Gen:^s	#;
++N+F+Pl+Nom:s	#;
++N+F+Pl+Acc:s	#;
++N+F+Pl+Dat:s	#;
++N+F+Pl+Gen:s	#;
 
 LEXICON Nchance
 
@@ -192,10 +195,10 @@ LEXICON Nchance
 +N+F+Sg+Acc:0     #;
 +N+F+Sg+Dat:0     #;
 +N+F+Sg+Gen:0     #;
-+N+F+Pl+Nom:^n    #;
-+N+F+Pl+Acc:^n    #;
-+N+F+Pl+Dat:^n    #;
-+N+F+Pl+Gen:^n    #;
++N+F+Pl+Nom:n    #;
++N+F+Pl+Acc:n    #;
++N+F+Pl+Dat:n    #;
++N+F+Pl+Gen:n    #;
 
 
 LEXICON Nradio
@@ -203,25 +206,25 @@ LEXICON Nradio
 +N+Nt+Sg+Nom:0	#;
 +N+Nt+Sg+Acc:0	#;
 +N+Nt+Sg+Dat:0	#;
-+N+Nt+Sg+Gen:^s	#;
-+N+Nt+Pl+Nom:^s	#;
-+N+Nt+Pl+Acc:^s	#;
-+N+Nt+Pl+Dat:^s	#;
-+N+Nt+Pl+Gen:^s	#;
++N+Nt+Sg+Gen:s	#;
++N+Nt+Pl+Nom:s	#;
++N+Nt+Pl+Acc:s	#;
++N+Nt+Pl+Dat:s	#;
++N+Nt+Pl+Gen:s	#;
 
 
 LEXICON Nherz
 
 +N+Nt+Sg+Nom:0    #;
 +N+Nt+Sg+Acc:0    #;
-+N+Nt+Sg+Dat:^en	#;
-+N+Nt+Sg+Dat:^e	#;
-+N+Nt+Sg+Gen:^es	#;
-+N+Nt+Sg+Gen:^ens	#;
-+N+Nt+Pl+Nom:^en	#;
-+N+Nt+Pl+Acc:^en	#;
-+N+Nt+Pl+Dat:^en	#;
-+N+Nt+Pl+Gen:^en	#;
++N+Nt+Sg+Dat:en	#;
++N+Nt+Sg+Dat:e	#;
++N+Nt+Sg+Gen:es	#;
++N+Nt+Sg+Gen:ens	#;
++N+Nt+Pl+Nom:en	#;
++N+Nt+Pl+Acc:en	#;
++N+Nt+Pl+Dat:en	#;
++N+Nt+Pl+Gen:en	#;
 
 LEXICON Nkraft
 
@@ -250,37 +253,37 @@ LEXICON Nstaat
 +N+M+Sg+Nom:0     #;
 +N+M+Sg+Acc:0   #;
 +N+M+Sg+Dat:0   #;
-+N+M+Sg+Dat:^e	#;
-+N+M+Sg+Gen:^s    #;
-+N+M+Sg+Gen:^es	#;
-+N+M+Pl+Nom:^en    #;
-+N+M+Pl+Acc:^en    #;
-+N+M+Pl+Dat:^en    #;
-+N+M+Pl+Gen:^en    #;
++N+M+Sg+Dat:e	#;
++N+M+Sg+Gen:s    #;
++N+M+Sg+Gen:es	#;
++N+M+Pl+Nom:en    #;
++N+M+Pl+Acc:en    #;
++N+M+Pl+Dat:en    #;
++N+M+Pl+Gen:en    #;
 
 LEXICON Nbild
 
 +N+Nt+Sg+Nom:0  #;
 +N+Nt+Sg+Acc:0  #;
 +N+Nt+Sg+Dat:0  #;
-+N+Nt+Sg+Dat:^e  #;
-+N+Nt+Sg+Gen:^s #;
-+N+Nt+Sg+Gen:^es #;
-+N+Nt+Pl+Nom:^er #;
-+N+Nt+Pl+Acc:^er #;
-+N+Nt+Pl+Dat:^ern #;
-+N+Nt+Pl+Gen:^er #;
++N+Nt+Sg+Dat:e  #;
++N+Nt+Sg+Gen:s #;
++N+Nt+Sg+Gen:es #;
++N+Nt+Pl+Nom:er #;
++N+Nt+Pl+Acc:er #;
++N+Nt+Pl+Dat:ern #;
++N+Nt+Pl+Gen:er #;
 
 LEXICON Nberg
 
 +N+M+Sg+Nom:0  #;
 +N+M+Sg+Acc:0  #;
 +N+M+Sg+Dat:0  #;
-+N+M+Sg+Dat:^e  #;
-+N+M+Sg+Gen:^s #;
-+N+M+Sg+Gen:^es #;
-+N+M+Pl+Nom:^e #;
-+N+M+Pl+Acc:^e #;
-+N+M+Pl+Dat:^en #;
-+N+M+Pl+Gen:^e #;
++N+M+Sg+Dat:e  #;
++N+M+Sg+Gen:s #;
++N+M+Sg+Gen:es #;
++N+M+Pl+Nom:e #;
++N+M+Pl+Acc:e #;
++N+M+Pl+Dat:en #;
++N+M+Pl+Gen:e #;
 
