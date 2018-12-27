@@ -3,6 +3,7 @@ Multichar_Symbols
 
 +N
 +V
++Adj
 +M
 +F
 +Nt
@@ -28,6 +29,9 @@ Multichar_Symbols
 +Pluperf
 +Fut
 +Futperf
++Pos
++Comp
++Super
 GE+
 @P.GE.ON@
 @D.GE@
@@ -37,6 +41,7 @@ LEXICON Root
 
 Noun ;
 Prefix ;
+Adjective ;
 
 LEXICON Noun
 
@@ -100,6 +105,10 @@ LEXICON Verb
 lieb Vlieben;
 handel Vhandeln;
 arbeit Varbeiten;
+
+LEXICON Adjective
+
+neu	Aneu;
 
 LEXICON Njunge
 
@@ -563,3 +572,56 @@ LEXICON Varbeiten
 @D.GE@+V+Part1:@D.GE@end  #;
 +V+Part2:et	#;
 
+LEXICON Aneu
+
++Adj+M+Nom:er	#;
++Adj+M+Acc:en	#;
++Adj+M+Dat:em	#;
++Adj+M+Gen:en	#;
++Adj+F+Nom:e	#;
++Adj+F+Acc:e	#;
++Adj+F+Dat:er	#;
++Adj+F+Gen:er	#;
++Adj+Nt+Nom:es	#;
++Adj+Nt+Acc:es	#;
++Adj+Nt+Dat:em	#;
++Adj+Nt+Gen:en	#;
++Adj+Pl+Nom:e	#;
++Adj+Pl+Acc:e	#;
++Adj+Pl+Dat:en	#;
++Adj+Pl+Gen:er	#;
++Adj+M+Nom:e	#;
++Adj+M+Acc:en	#;
++Adj+M+Dat:en	#;
++Adj+M+Gen:en	#;
++Adj+F+Nom:e	#;
++Adj+F+Acc:e	#;
++Adj+F+Dat:en	#;
++Adj+F+Gen:en	#;
++Adj+Nt+Nom:e	#;
++Adj+Nt+Acc:e	#;
++Adj+Nt+Dat:en	#;
++Adj+Nt+Gen:en	#;
++Adj+Pl+Nom:en	#;
++Adj+Pl+Acc:en	#;
++Adj+Pl+Dat:en	#;
++Adj+Pl+Gen:en	#;
++Adj+M+Nom:er	#;
++Adj+M+Acc:en	#;
++Adj+M+Dat:en	#;
++Adj+M+Gen:en	#;
++Adj+F+Nom:e	#;
++Adj+F+Acc:e	#;
++Adj+F+Dat:en	#;
++Adj+F+Gen:en	#;
++Adj+Nt+Nom:es	#;
++Adj+Nt+Acc:es	#;
++Adj+Nt+Dat:en	#;
++Adj+Nt+Gen:en	#;
++Adj+Pl+Nom:en	#;
++Adj+Pl+Acc:en	#;
++Adj+Pl+Dat:en	#;
++Adj+Pl+Gen:en	#;
++Adj+Pos:0	#;
++Adj+Comp:er	#;
++Adj+Super:sten #;
