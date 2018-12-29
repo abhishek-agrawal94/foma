@@ -113,23 +113,25 @@ wart Varbeiten;
 bedeut Varbeiten;
 antwort Varbeiten;
 fahr Vfahren;
+geb Vgeben;
 
 LEXICON Vprefix
 
-lieb Vwithprefix;
-mach Vwithprefix;
-kauf Vwithprefix;
-sag Vwithprefix;
-handel Vwithprefix;
-sammel Vwithprefix;
-ermittel Vwithprefix;
-wurzel Vwithprefix;
-spiegel Vwithprefix;
-arbeit Vwithprefix;
-wart Vwithprefix;
-bedeut Vwithprefix;
-antwort Vwithprefix;
-fahr Vwithprefix;
+lieb Vliebenwithprefix;
+mach Vliebenwithprefix;
+kauf Vliebenwithprefix;
+sag Vliebenwithprefix;
+handel Vliebenwithprefix;
+sammel Vliebenwithprefix;
+ermittel Vliebenwithprefix;
+wurzel Vliebenwithprefix;
+spiegel Vliebenwithprefix;
+arbeit Varbeitenwithprefix;
+wart Varbeitenwithprefix;
+bedeut Varbeitenwithprefix;
+antwort Varbeitenwithprefix;
+fahr Vfahrenwithprefix;
+geb Vfahrenwithprefix;
 
 LEXICON Adjective
 
@@ -342,8 +344,7 @@ LEXICON Nberg
 +N+M+Pl+Dat:en #;
 +N+M+Pl+Gen:e #;
 
-LEXICON Vwithprefix
-
+LEXICON Vliebenwithprefix
 +V+Ind+Perf+Sg+1P:t        #;
 +V+Ind+Perf+Sg+2P:t       #;
 +V+Ind+Perf+Sg+3P:t        #;
@@ -381,6 +382,10 @@ LEXICON Vwithprefix
 +V+Subj+Futperf+Pl+2P:t        #;
 +V+Subj+Futperf+Pl+3P:t       #;
 +V+Part2:t	#;
+
+
+LEXICON Varbeitenwithprefix
+
 +V+Ind+Perf+Sg+1P:et        #;
 +V+Ind+Perf+Sg+2P:et       #;
 +V+Ind+Perf+Sg+3P:et        #;
@@ -418,6 +423,9 @@ LEXICON Vwithprefix
 +V+Subj+Futperf+Pl+2P:et        #;
 +V+Subj+Futperf+Pl+3P:et       #;
 +V+Part2:et	#;
+
+LEXICON Vfahrenwithprefix
+
 +V+Ind+Perf+Sg+1P:en        #;
 +V+Ind+Perf+Sg+2P:en       #;
 +V+Ind+Perf+Sg+3P:en        #;
@@ -455,7 +463,7 @@ LEXICON Vwithprefix
 +V+Subj+Futperf+Pl+2P:en        #;
 +V+Subj+Futperf+Pl+3P:en       #;
 +V+Part2:en	#;
-Verb;
+
 
 LEXICON Vlieben
 
@@ -659,6 +667,57 @@ LEXICON Vfahren
 +V+Cond+Pres+Pl+2P:en    #;
 +V+Cond+Pres+Pl+3P:en   #;
 +V+Impe+Pres+Sg+2P:e   #;
++V+Impe+Pres+Pl+1P:en   #;
++V+Impe+Pres+Pl+2P:t    #;
++V+Impe+Pres+Pl+3P:en   #;
++V+Inf:en	#;
++V+Part1:end  #;
+
+LEXICON Vgeben
+
++V+Ind+Pres+Sg+1P:e	#;
++V+Ind+Pres+Sg+2P:^1st	#;
++V+Ind+Pres+Sg+3P:^1t	#;
++V+Ind+Pres+Pl+1P:en	#;
++V+Ind+Pres+Pl+2P:t	#;
++V+Ind+Pres+Pl+3P:en	#;
++V+Ind+Imperf+Sg+1P:1    #;
++V+Ind+Imperf+Sg+2P:1st   #;
++V+Ind+Imperf+Sg+3P:1    #;
++V+Ind+Imperf+Pl+1P:1en   #;
++V+Ind+Imperf+Pl+2P:1t    #;
++V+Ind+Imperf+Pl+3P:1en   #;
++V+Ind+Fut+Sg+1P:en    #;
++V+Ind+Fut+Sg+2P:en   #;
++V+Ind+Fut+Sg+3P:en    #;
++V+Ind+Fut+Pl+1P:en   #;
++V+Ind+Fut+Pl+2P:en    #;
++V+Ind+Fut+Pl+3P:en   #;
++V+Subj+Pres+Sg+1P:e        #;
++V+Subj+Pres+Sg+2P:est       #;
++V+Subj+Pres+Sg+3P:e        #;
++V+Subj+Pres+Pl+1P:en       #;
++V+Subj+Pres+Pl+2P:et        #;
++V+Subj+Pres+Pl+3P:en       #;
++V+Subj+Imperf+Sg+1P:^1e    #;
++V+Subj+Imperf+Sg+2P:^1est   #;
++V+Subj+Imperf+Sg+3P:^1e    #;
++V+Subj+Imperf+Pl+1P:^1en   #;
++V+Subj+Imperf+Pl+2P:^1et    #;
++V+Subj+Imperf+Pl+3P:^1en   #;
++V+Subj+Fut+Sg+1P:en    #;
++V+Subj+Fut+Sg+2P:en   #;
++V+Subj+Fut+Sg+3P:en    #;
++V+Subj+Fut+Pl+1P:en   #;
++V+Subj+Fut+Pl+2P:en    #;
++V+Subj+Fut+Pl+3P:en   #;
++V+Cond+Pres+Sg+1P:en    #;
++V+Cond+Pres+Sg+2P:en   #;
++V+Cond+Pres+Sg+3P:en    #;
++V+Cond+Pres+Pl+1P:en   #;
++V+Cond+Pres+Pl+2P:en    #;
++V+Cond+Pres+Pl+3P:en   #;
++V+Impe+Pres+Sg+2P:0   #;
 +V+Impe+Pres+Pl+1P:en   #;
 +V+Impe+Pres+Pl+2P:t    #;
 +V+Impe+Pres+Pl+3P:en   #;

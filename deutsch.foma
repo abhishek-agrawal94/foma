@@ -12,8 +12,14 @@ define ShortToLongMutter a -> ä || ?* _ ?* "^" [1 | n] ,, o -> ö || ?* _ ?* "^
 # Convert short to long vowel for the inflection pattern fahren
 define ShortToLongFahren a -> ä || ?* _ ?* "^" 1 [t | s t];
 
+# Convert e to i for the inflection pattern geben
+define EToIGeben e -> i || ?* _ ?* "^" 1 [t | s t];
+
 # Convert a to u for irregular verb fahren
 define AToUIrregVerbs a -> u || ?* _ ?* 1;
+
+# Convert e to a for irregular verb geben
+define EToAIrregVerbs e -> a || ?* _ ?* 1;
 
 # clean added 1 for rules
 define CleanOne 1 -> 0;
@@ -26,7 +32,9 @@ define Lexicon;
 
 define Grammar Lexicon .o.
 	       ShortToLongFahren .o.
+	       EToIGeben .o.
 	       AToUIrregVerbs .o.
+	       EToAIrregVerbs .o.
 	       ShortToLongKraft .o. 
 	       ShortToLongMutter .o.
 	       CleanOne .o.
